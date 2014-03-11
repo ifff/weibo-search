@@ -1,0 +1,10 @@
+application: weisearch
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /stylesheets
+  static_dir: css
+- url: /.*
+  script: index.php
